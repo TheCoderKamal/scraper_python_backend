@@ -8,7 +8,7 @@ from core.security import verify_api_key
 from core.rate_limit import rate_limiter
 from routes.article.controller import ArticleController
 
-router = APIRouter(prefix="/scrape/article", tags=["article"])
+router = APIRouter(prefix="/extract-recipe/article", tags=["article"])
 
 class ArticleScrapeRequest(BaseModel):
     url: str  # Can be URL or direct text

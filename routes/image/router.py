@@ -8,7 +8,7 @@ from core.security import verify_api_key
 from core.rate_limit import rate_limiter
 from routes.image.controller import ImageController
 
-router = APIRouter(prefix="/scrape/image", tags=["image"])
+router = APIRouter(prefix="/extract-recipe/image", tags=["image"])
 logger = logging.getLogger(__name__)
 
 @router.post("")

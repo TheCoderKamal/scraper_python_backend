@@ -8,7 +8,7 @@ from core.security import verify_api_key
 from core.rate_limit import rate_limiter
 from routes.social.controller import SocialController
 
-router = APIRouter(prefix="/scrape/social", tags=["social"])
+router = APIRouter(prefix="/extract-recipe/social", tags=["social"])
 
 class SocialScrapeRequest(BaseModel):
     url: HttpUrl

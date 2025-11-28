@@ -7,7 +7,7 @@
 **URL (POST):**
 
 ```
-http://localhost:8000/scrape/image
+http://localhost:8000/extract-recipe/image
 ```
 
 ### **Headers**
@@ -30,7 +30,7 @@ http://localhost:8000/scrape/image
 **URL (POST):**
 
 ```
-http://localhost:8000/scrape/article
+http://localhost:8000/extract-recipe/article
 ```
 
 ### **Headers**
@@ -55,7 +55,7 @@ http://localhost:8000/scrape/article
 **URL (POST):**
 
 ```
-http://localhost:8000/scrape/social
+http://localhost:8000/extract-recipe/social
 ```
 
 ### **Headers**
@@ -73,3 +73,16 @@ http://localhost:8000/scrape/social
 }
 ```
 
+
+
+env setup:
+
+# Groq API Configuration
+GROQ_API_KEY=gsk_LjvS6....
+
+# API Security
+STATIC_API_TOKEN=your_key
+
+# Rate Limiting (optional)
+RATE_LIMIT_REQUESTS=100
+RATE_LIMIT_WINDOW=3600
