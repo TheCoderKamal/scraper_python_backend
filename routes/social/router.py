@@ -12,7 +12,6 @@ router = APIRouter(prefix="/scrape/social", tags=["social"])
 
 class SocialScrapeRequest(BaseModel):
     url: HttpUrl
-    type: str  # "social_media" from Node.js backend
 
 class SocialScrapeResponse(BaseModel):
     success: bool

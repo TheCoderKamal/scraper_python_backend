@@ -14,7 +14,6 @@ logger = logging.getLogger(__name__)
 @router.post("")
 async def scrape_image(
     file: UploadFile = File(...),
-    type: str = "image",
     api_key: str = Depends(verify_api_key)
 ):
     """

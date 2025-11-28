@@ -12,7 +12,6 @@ router = APIRouter(prefix="/scrape/article", tags=["article"])
 
 class ArticleScrapeRequest(BaseModel):
     url: str  # Can be URL or direct text
-    type: str  # "article" from Node.js backend
 
 class ArticleScrapeResponse(BaseModel):
     success: bool
