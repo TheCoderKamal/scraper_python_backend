@@ -45,7 +45,6 @@ http://localhost:8000/scrape/article
 ```json
 {
     "url": "article-url",
-    "type": "article"
 }
 ```
 
@@ -71,7 +70,6 @@ http://localhost:8000/scrape/social
 ```json
 {
     "url": "social-url",
-    "type": "social"
 }
 ```
 
