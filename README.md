@@ -14,7 +14,7 @@ http://localhost:8000/scrape/image
 
 | Key          | Value                 |
 | ------------ | --------------------- |
-| a-api-key    | your-secret-api-token |
+| X-API-Key    | your-secret-api-token |
 | Content-Type | application/json      |
 
 ### **Body → form-data**
@@ -37,7 +37,7 @@ http://localhost:8000/scrape/article
 
 | Key          | Value                 |
 | ------------ | --------------------- |
-| a-api-key    | your-secret-api-token |
+| X-API-Key    | your-secret-api-token |
 | Content-Type | application/json      |
 
 ### **Body → raw JSON**
@@ -62,7 +62,7 @@ http://localhost:8000/scrape/social
 
 | Key          | Value                 |
 | ------------ | --------------------- |
-| a-api-key    | your-secret-api-token |
+| X-API-Key    | your-secret-api-token |
 | Content-Type | application/json      |
 
 ### **Body → raw JSON**
